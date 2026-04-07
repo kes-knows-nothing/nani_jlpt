@@ -1,0 +1,436 @@
+import { Question } from '../types/question';
+
+// ─────────────────────────────────────────────
+// N5 文字・語彙 — オリジナル問題
+// PDF の形式を参考にした創作問題です（著作権フリー）
+// ─────────────────────────────────────────────
+export const questions: Question[] = [
+
+  // ══════════════════════════════════════════
+  // もんだい１  ＿＿のことばはひらがなでどうかきますか
+  // ══════════════════════════════════════════
+  {
+    id: 'm1_001',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai1',
+    sentence: '毎日 日本語を 勉強します。',
+    target: '毎日',
+    options: ['まいにち', 'まいび', 'めいにち', 'めいび'],
+    correctIndex: 0,
+    explanation: '毎日（まいにち）= 매일',
+  },
+  {
+    id: 'm1_002',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai1',
+    sentence: '電話を かけて ください。',
+    target: '電話',
+    options: ['てんわ', 'でんわ', 'でんは', 'てんは'],
+    correctIndex: 1,
+    explanation: '電話（でんわ）= 전화',
+  },
+  {
+    id: 'm1_003',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai1',
+    sentence: '来年 また 会いましょう。',
+    target: '来年',
+    options: ['きねん', 'きとし', 'らいとし', 'らいねん'],
+    correctIndex: 3,
+    explanation: '来年（らいねん）= 내년',
+  },
+  {
+    id: 'm1_004',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai1',
+    sentence: '右に まがって ください。',
+    target: '右',
+    options: ['ひだり', 'うえ', 'みぎ', 'した'],
+    correctIndex: 2,
+    explanation: '右（みぎ）= 오른쪽',
+  },
+  {
+    id: 'm1_005',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai1',
+    sentence: 'この 白い ねこが すきです。',
+    target: '白い',
+    options: ['くろい', 'あかい', 'あおい', 'しろい'],
+    correctIndex: 3,
+    explanation: '白い（しろい）= 하얀',
+  },
+  {
+    id: 'm1_006',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai1',
+    sentence: 'えきの 近くに 公園が あります。',
+    target: '近く',
+    options: ['とおく', 'ちかく', 'おおく', 'すくなく'],
+    correctIndex: 1,
+    explanation: '近く（ちかく）= 근처',
+  },
+  {
+    id: 'm1_007',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai1',
+    sentence: '外は 寒いですから、コートを きて ください。',
+    target: '寒い',
+    options: ['あつい', 'さむい', 'すずしい', 'あたたかい'],
+    correctIndex: 1,
+    explanation: '寒い（さむい）= 춥다',
+  },
+  {
+    id: 'm1_008',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai1',
+    sentence: 'この 映画は 二時間です。',
+    target: '映画',
+    options: ['えいか', 'えいが', 'えいわ', 'えいば'],
+    correctIndex: 1,
+    explanation: '映画（えいが）= 영화',
+  },
+
+  // ══════════════════════════════════════════
+  // もんだい２  ＿＿のことばはどうかきますか
+  // ══════════════════════════════════════════
+  {
+    id: 'm2_001',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai2',
+    sentence: 'きょうは いい てんきですね。',
+    target: 'てんき',
+    options: ['天気', '天紀', '天期', '天記'],
+    correctIndex: 0,
+    explanation: 'てんき = 天気（날씨）',
+  },
+  {
+    id: 'm2_002',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai2',
+    sentence: 'ともだちに てがみを かきます。',
+    target: 'てがみ',
+    options: ['手形', '手紙', '手型', '手帳'],
+    correctIndex: 1,
+    explanation: 'てがみ = 手紙（편지）',
+  },
+  {
+    id: 'm2_003',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai2',
+    sentence: 'まいあさ じてんしゃで がっこうへ いきます。',
+    target: 'じてんしゃ',
+    options: ['自転者', '自転写', '自転車', '自転社'],
+    correctIndex: 2,
+    explanation: 'じてんしゃ = 自転車（자전거）',
+  },
+  {
+    id: 'm2_004',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai2',
+    sentence: 'これは わたしの とけいです。',
+    target: 'とけい',
+    options: ['時系', '時計', '時係', '時掛'],
+    correctIndex: 1,
+    explanation: 'とけい = 時計（시계）',
+  },
+  {
+    id: 'm2_005',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai2',
+    sentence: 'えきの まえに ぎんこうが あります。',
+    target: 'ぎんこう',
+    options: ['銀行', '金行', '銀号', '金号'],
+    correctIndex: 0,
+    explanation: 'ぎんこう = 銀行（은행）',
+  },
+  {
+    id: 'm2_006',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai2',
+    sentence: 'あした はやく おきます。',
+    target: 'はやく',
+    options: ['速く', '遅く', '早く', '急く'],
+    correctIndex: 2,
+    explanation: 'はやく = 早く（일찍）',
+  },
+  {
+    id: 'm2_007',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai2',
+    sentence: 'テーブルの うえに おちゃが あります。',
+    target: 'うえ',
+    options: ['下', '右', '左', '上'],
+    correctIndex: 3,
+    explanation: 'うえ = 上（위）',
+  },
+  {
+    id: 'm2_008',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai2',
+    sentence: 'ちちは まいあさ しんぶんを よみます。',
+    target: 'しんぶん',
+    options: ['新聞', '新分', '親聞', '親文'],
+    correctIndex: 0,
+    explanation: 'しんぶん = 新聞（신문）',
+  },
+
+  // ══════════════════════════════════════════
+  // もんだい３  （　）になにをいれますか
+  // ══════════════════════════════════════════
+  {
+    id: 'm3_001',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai3',
+    sentence: 'のどが かわいたので、（　）を のみます。',
+    target: '',
+    options: ['みず', 'えんぴつ', 'くつ', 'ざっし'],
+    correctIndex: 0,
+    explanation: 'のどが かわく（목이 마르다）→ みず（물）를 마신다',
+  },
+  {
+    id: 'm3_002',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai3',
+    sentence: 'へやが きたないので、（　）します。',
+    target: '',
+    options: ['りょこう', 'そうじ', 'さんぽ', 'かいもの'],
+    correctIndex: 1,
+    explanation: 'へやが きたない（방이 더럽다）→ そうじ（청소）를 한다',
+  },
+  {
+    id: 'm3_003',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai3',
+    sentence: 'そとは （　）が ふっていますから、かさを もって ください。',
+    target: '',
+    options: ['かぜ', 'ゆき', 'あめ', 'くも'],
+    correctIndex: 2,
+    explanation: 'かさ（우산）→ あめ（비）가 올 때 사용',
+  },
+  {
+    id: 'm3_004',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai3',
+    sentence: 'きのうは あたまが （　）から、はやく ねました。',
+    target: '',
+    options: ['いたかった', 'おおきかった', 'たかかった', 'ひろかった'],
+    correctIndex: 0,
+    explanation: 'あたまが いたい（머리가 아프다）→ いたかった（아팠다）',
+  },
+  {
+    id: 'm3_005',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai3',
+    sentence: 'としょかんで ほんを （　）ください。',
+    target: '',
+    options: ['たべて', 'かりて', 'おいて', 'きって'],
+    correctIndex: 1,
+    explanation: 'としょかん（도서관）에서 ほん（책）을 → かりる（빌리다）',
+  },
+  {
+    id: 'm3_006',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai3',
+    sentence: 'やまださんは ギターを じょうずに （　）。',
+    target: '',
+    options: ['うたいます', 'ひきます', 'ならびます', 'あそびます'],
+    correctIndex: 1,
+    explanation: 'ギター（기타）를 연주하다 → ひく（치다/연주하다）',
+  },
+  {
+    id: 'm3_007',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai3',
+    sentence: 'あさごはんを （　）から、がっこうへ いきます。',
+    target: '',
+    options: ['たべて', 'のんで', 'みて', 'かって'],
+    correctIndex: 0,
+    explanation: 'あさごはん（아침식사）을 → たべる（먹다）',
+  },
+  {
+    id: 'm3_008',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai3',
+    sentence: 'うちから えきまで （　）で じゅっぷんです。',
+    target: '',
+    options: ['あるいて', 'およいで', 'はしって', 'とんで'],
+    correctIndex: 0,
+    explanation: '역까지 걸어서 10분 → あるく（걷다）',
+  },
+
+  // ══════════════════════════════════════════
+  // もんだい４  ＿＿のぶんとだいたいおなじいみのぶんがあります
+  // ══════════════════════════════════════════
+  {
+    id: 'm4_001',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai4',
+    sentence: 'この えいがは とても おもしろかったです。',
+    target: 'この えいがは とても おもしろかったです。',
+    options: [
+      'この えいがは とても たのしかったです。',
+      'この えいがは とても つまらなかったです。',
+      'この えいがは とても ながかったです。',
+      'この えいがは とても むずかしかったです。',
+    ],
+    correctIndex: 0,
+    explanation: 'おもしろい（재미있다）≒ たのしい（즐겁다）',
+  },
+  {
+    id: 'm4_002',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai4',
+    sentence: 'いもうとは ちちより せが たかいです。',
+    target: 'いもうとは ちちより せが たかいです。',
+    options: [
+      'ちちは いもうとより せが たかいです。',
+      'ちちは いもうとより せが ひくいです。',
+      'いもうとと ちちは せが おなじです。',
+      'いもうとは せが いちばん ひくいです。',
+    ],
+    correctIndex: 1,
+    explanation: '여동생이 아버지보다 키가 크다 ⟺ 아버지는 여동생보다 키가 낮다',
+  },
+  {
+    id: 'm4_003',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai4',
+    sentence: 'きのう ははと えいがを みました。',
+    target: 'きのう ははと えいがを みました。',
+    options: [
+      'きのう おかあさんと えいがかんに いきました。',
+      'きのう おとうさんと えいがを みました。',
+      'きのう ははと テレビを みました。',
+      'きのう ははと えいがを みませんでした。',
+    ],
+    correctIndex: 0,
+    explanation: 'はは = おかあさん（어머니）、えいがをみる = えいがかんにいく',
+  },
+  {
+    id: 'm4_004',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai4',
+    sentence: 'あしたは がっこうが やすみです。',
+    target: 'あしたは がっこうが やすみです。',
+    options: [
+      'あしたも がっこうに いきます。',
+      'あしたは がっこうに いきません。',
+      'あしたは がっこうで べんきょうします。',
+      'あしたは がっこうが はじまります。',
+    ],
+    correctIndex: 1,
+    explanation: 'がっこうが やすみ（학교 쉬는 날）= がっこうに いかない',
+  },
+  {
+    id: 'm4_005',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai4',
+    sentence: 'そのみせは ゆうがた 6じに しまります。',
+    target: 'そのみせは ゆうがた 6じに しまります。',
+    options: [
+      'そのみせは 6じから あきます。',
+      'そのみせは 6じまで あいています。',
+      'そのみせは 6じに ひとが きます。',
+      'そのみせは 6じから しまります。',
+    ],
+    correctIndex: 1,
+    explanation: '6시에 닫힌다 → 6시까지는 열려있다',
+  },
+  {
+    id: 'm4_006',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai4',
+    sentence: 'わたしは にほんごが すこし わかります。',
+    target: 'わたしは にほんごが すこし わかります。',
+    options: [
+      'わたしは にほんごが ぜんぜん わかりません。',
+      'わたしは にほんごが とても じょうずです。',
+      'わたしは にほんごを すこし べんきょうしました。',
+      'わたしは にほんごが すこし できます。',
+    ],
+    correctIndex: 3,
+    explanation: 'すこし わかる（조금 안다）≒ すこし できる（조금 할 수 있다）',
+  },
+  {
+    id: 'm4_007',
+    level: 'N5',
+    section: 'vocabulary',
+    mondai: 'mondai4',
+    sentence: 'まいにち くにの かぞくに でんわします。',
+    target: 'まいにち くにの かぞくに でんわします。',
+    options: [
+      'ときどき くにの かぞくに でんわします。',
+      'にちようびだけ くにの かぞくに でんわします。',
+      'いちにちも かぞくに でんわしません。',
+      'いちにちに いちど かぞくに でんわします。',
+    ],
+    correctIndex: 3,
+    explanation: 'まいにち（매일）= いちにちに いちど（하루에 한 번）',
+  },
+];
+
+// ─────────────────────────────────────────────
+// ヘルパー関数
+// ─────────────────────────────────────────────
+export function getQuestionsByMondai(mondai: Question['mondai']): Question[] {
+  return questions.filter((q) => q.mondai === mondai);
+}
+
+export function getQuestionsByLevel(level: Question['level']): Question[] {
+  return questions.filter((q) => q.level === level);
+}
+
+export function shuffleQuestions(qs: Question[]): Question[] {
+  return [...qs].sort(() => Math.random() - 0.5);
+}
+
+export const MONDAI_LABELS: Record<Question['mondai'], string> = {
+  mondai1: 'もんだい１',
+  mondai2: 'もんだい２',
+  mondai3: 'もんだい３',
+  mondai4: 'もんだい４',
+};
+
+export const MONDAI_SUBTITLES: Record<Question['mondai'], string> = {
+  mondai1: '한자 읽기',
+  mondai2: '표기',
+  mondai3: '문맥구성',
+  mondai4: '유의표현',
+};
+
+export const MONDAI_INSTRUCTIONS: Record<Question['mondai'], string> = {
+  mondai1: '＿＿のことばはひらがなでどうかきますか',
+  mondai2: '＿＿のことばはどうかきますか',
+  mondai3: '（　）になにをいれますか',
+  mondai4: '＿＿のぶんとだいたいおなじいみのぶんはどれですか',
+};
